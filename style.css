@@ -44,14 +44,28 @@ body {
 .main-text h1 {
   color: #fff;
   font-family: "Poppins", sans-serif;
-  line-height: 1.8;
+
   margin-bottom: 25px;
 }
 
 .main-text p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.main-text a {
   display: inline-block;
   font-family: "Poppins", sans-serif;
-  text-decoration: none;
   background-color: #fff;
+  text-decoration: none;
   padding: 13px 50px;
+  border-radius: 25px;
+  box-shadow: 0 8px 17px -8px rgba(0, 0, 0, 0.8);
+}
+
+.main-text a:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
 }
