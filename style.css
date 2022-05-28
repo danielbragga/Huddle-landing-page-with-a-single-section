@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
-/* font-family: "Poppins", sans-serif; */
-
 * {
   padding: 0;
   margin: 0;
@@ -27,7 +25,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 40px 0;
-  margin: 0 2rem;
+  margin: 0 0rem;
 }
 
 .header img {
@@ -63,9 +61,72 @@ body {
   padding: 13px 50px;
   border-radius: 25px;
   box-shadow: 0 8px 17px -8px rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease;
 }
 
 .main-text a:hover {
   background-color: hsl(300, 69%, 71%);
   color: #fff;
 }
+
+.footer {
+  text-align: right;
+  padding-top: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.footer a:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.footer a::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  left: -13px;
+  bottom: -9px;
+  transition: all 0.2s ease;
+}
+
+.footer a:hover {
+  color: hsl(300, 69%, 71%);
+}
+
+.footer a:hover::after {
+  border-color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 1440px) {
+  .main-image img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-text h1 {
+    font-size: 26px;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    padding: 50px;
+  }
+} ;
