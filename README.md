@@ -14,3 +14,13 @@ Your users should be able to:
 
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
+
+## Links
+
+- Live Site URL: [https://huddle-landing-page-with-a-single-section.netlify.app/]
+
+## Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
