@@ -27,4 +27,4 @@ Your users should be able to:
 
 ## Icons
 
-- [Ionicons](https://ionicons.com/)
+- Ionicons - https://ionicons.com/
