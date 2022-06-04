@@ -17,10 +17,14 @@ Your users should be able to:
 
 ## Links
 
-- Live Site URL: [https://huddle-landing-page-with-a-single-section.netlify.app/]
+- Live Site URL: https://huddle-landing-page-with-a-single-section.netlify.app/
 
 ## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+
+## Icons
+
+- [Ionicons](https://ionicons.com/)
